@@ -22,11 +22,34 @@ html{
 }
 
 .animal{
-    width:15%;
-    margin:2rem 3rem ;
     display: flex;
+    flex-direction: column;
+    margin:2rem 3rem ;
+    text-align: center;
+    align-items: center;
 }
 
 img{
-    width: 100%;
+    width: 20rem;
+    
+}
+
+p{
+    display: flex;
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: rgba(15, 15, 15, 0.829);
+    background: rgba(233, 222, 222, 0.4);
+    width: 14rem;
+    border-radius: 0.5rem;
+    letter-spacing: 0.2rem;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2rem;
+    padding: 0.5rem;  
+}
+
+.animation{
+    
 }
