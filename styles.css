@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: url('./img/farm.jpg');
+    background-size: cover;
+    font-size: 10px;
+    height: 100vh;
+}
+
+.animals{
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.animal{
+    width:15%;
+    margin:2rem 3rem ;
+    display: flex;
+}
+
+img{
+    width: 100%;
+}
