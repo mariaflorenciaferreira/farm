@@ -10,25 +10,31 @@
 <body>
     <main>
         <div class="animals">
-            <div  id="pig" class="animal">
-                <img src="./img/pig.jpg"  alt="">
-                <p>chacnho</p>
+            <div  id="horse" class="animal" onClick="handleClick('horse')" >
+                <img src="./img/horse.png"  alt="">
+                <p>caballo</p>
             </div>
-            <div  id="chicken" class="animal">
-                <img src="./img/chicken.jpg" alt="">
+            <div  id="chicken" class="animal" onClick="handleClick('rooster')">
+                <img src="./img/chicken.png" alt="">
                 <p>gallina</p>
             </div>
-            <div id="cow" class="animal">
-                <img src="./img/cow.jpg" alt="">
+            <div id="cow" class="animal" onClick="handleClick('cow')">
+                <img src="./img/cow.png" alt="">
                 <p>vaca</p>
             </div>
-            <div id="sheep" class="animal">
-                <img src="./img/sheep.jpg" alt="">
+            <div id="sheep" class="animal" onClick="handleClick('sheep')">
+                <img src="./img/sheep.png" alt="">
                 <p>oveja</p>
             </div>
         </div>
     </main>
     
+    <audio data-key="cow" src="./audio/cow_sound.wav"></audio>
+    <audio data-key="horse" src="./audio/horse_sound.wav"></audio>
+    <audio data-key="rooster" src="./audio/rooster_sound.wav"></audio>
+    <audio data-key="sheep" src="./audio/sheep_sound.wav"></audio>
+
+    <script src="./scripts.js"></script>
 
 </body>
 </html>
