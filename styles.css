@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 html{
@@ -62,3 +63,18 @@ p:hover{
     
 }
 
+@media screen and (max-width: 600px){
+    img{
+        height: 20rem;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1432px){
+    img{
+        height: 30rem;
+    }
+}
